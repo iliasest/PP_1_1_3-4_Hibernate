@@ -10,7 +10,7 @@ import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
     private static final SessionFactory sessionFactory = Util.getSessionFactory();
-    Transaction transaction = null;
+    private Transaction transaction = null;
     public UserDaoHibernateImpl() {
 
     }
